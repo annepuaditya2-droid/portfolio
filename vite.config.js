@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react' // <-- Fix the typo here
 
-// https://vite.dev/config/
 export default defineConfig({
-  base: '/portfolio/', // <-- ADD THIS LINE
-  plugins: [react()], 
+  base: '/portfolio/', 
+  plugins: [react()],
 })
